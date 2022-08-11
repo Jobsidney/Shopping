@@ -1,38 +1,58 @@
 .App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  background-color: white;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.signUp{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  text-align: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ 
+  margin: auto;
+}
+.tite{
+  color: black;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  width: 21rem;
+  margin: auto;
+  text-align: start;
+}
+input{
+  height: 2rem;
+  border: 2px solid rgba(160, 158, 158, 0.9);
+  margin-top: 5px;
+  border-radius: 5px;
+}
+input:focus{
+  border: 2px solid rgb(6, 15, 93);
+}
+label{
+  opacity: 0.3;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+.credentials{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+.account{
+  text-align: start;
+}
+.horizintals{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+.horizintals>div{
+  border-bottom: 1px solid black;
+  width: 30%;
+  background-color: red;
+
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
